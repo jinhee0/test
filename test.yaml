@@ -1,0 +1,24 @@
+message: api test5
+service:
+  expose: "8000"
+  autoscaling:
+    min: 1
+    max: 2
+    metric: cpu
+    target: 50
+resources:
+  cluster: vessl-gcp-oregon
+  preset: cpu-medium
+image: quay.io/vessl-ai/python:3.10-r18
+import:
+  /code/:
+    git: 
+      url: https://github.com/jinhee0/test.git
+      ref: main
+run:
+  - command: |
+      python main.py
+    workdir: /code
+
+ports:
+  - 8000
