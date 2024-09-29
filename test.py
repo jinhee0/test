@@ -1,6 +1,6 @@
 import requests
 
-url = 'https://serve-api.vessl.ai/api/v1/services/8vn5siw1fei4/api/chatbot'
+url = 'https://serve-api.vessl.ai/api/v1/services/8vn5siw1fei4'
 token = '7vPG0BFAg8lC16iEcw8hZfwSOed6e4f3'
 data = {"data": "jinjin"}  # name을 데이터에 포함
 

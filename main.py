@@ -22,7 +22,4 @@ def chatbot():
     # JSON 형태로 응답 반환
     return jsonify({'message': response_message})
 
-# 메인 실행 블록
-if __name__ == "__main__":
-    app.run(port=8000, debug=True)  
 
