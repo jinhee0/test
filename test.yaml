@@ -1,4 +1,4 @@
-message: api test5
+message: api test
 service:
   expose: "8000"
   autoscaling:
