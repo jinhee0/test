@@ -24,5 +24,5 @@ def chatbot():
 
 # 메인 실행 블록
 if __name__ == "__main__":
-    app.run(debug=True)  # 디버그 모드로 실행
+    app.run(port=8000, debug=True)  
 
