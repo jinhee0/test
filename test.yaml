@@ -13,7 +13,7 @@ image: quay.io/vessl-ai/python:3.10-r18
 import:
   /code/:
     git: 
-      url: https://github.com/jinhee0/test.git
+      url: https://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@github.com/jinhee0/test.git
       ref: main
 run:
   - command: |
